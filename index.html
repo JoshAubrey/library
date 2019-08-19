@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <title>Library</title>
+    </head>
+    
+    <body>
+        <div id="title">
+            <h1>Library</h1>
+            <small>with javascript!</small>
+        </div>
+
+        <div id="container">
+
+            <button id="newBookButton">+</button>
+
+            <table id="libraryTable">
+
+                <thead>
+                    <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Status</th>
+                    <th></th>
+                    </tr>
+                </thead>
+                
+                <tbody id="newBookTableBody" class = "hide">
+                    <td><input id="newBookTitle" type="text" placeholder="Title"></td>
+                    <td><input id="newBookAuthor" type="text" placeholder="Author"></td>
+                    <td><input id="newBookPages" type="number" placeholder="Pages"></td>
+                    <td><button id="newBookReadButton">Unread</button></td>
+                    <td><button id="saveNewBookButton">+</button></td>
+                </tbody>
+
+                <tbody id="libraryTableBody">
+                </tbody>
+
+            </table>
+
+            
+        </div>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>

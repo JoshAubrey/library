@@ -21,7 +21,7 @@ A library book tracker that utilizes object constructors, classes, and localStor
 ### Installing and running
 
 ```bash
-git clone https://github.com/JoshAubrey/calculator.git
+git clone https://github.com/JoshAubrey/library.git
 cd library
 open index.html with browser of choice
 ```
